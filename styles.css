@@ -1,0 +1,356 @@
+/* Paleta de Colores Sobria y Vibrante */
+:root {
+    /* Azules: Elegantes y profundos */
+    --color-primary-dark: #1A3E5C; /* Azul Marino Oscuro (Base) */
+    --color-primary-light: #2A6890; /* Azul Medio/Grisáceo */
+
+    /* Rojo: Acento fuerte y sobrio */
+    --color-accent-red: #B03A2E; /* Rojo Terracota/Ladrillo */
+
+    /* Naranja: Calidez y energía sutil */
+    --color-accent-orange: #E67E22; /* Naranja Quemado (Para CTA/Bordes) */
+
+    /* Verde: Contraste natural */
+    --color-accent-green: #27AE60; /* Verde Esmeralda/Bosque */
+
+    /* Neutros: Fondo claro y texto oscuro */
+    --color-background: #F8F9FA; /* Blanco Roto / Gris muy claro */
+    --color-text: #34495E; /* Gris Azulado Oscuro (Texto principal) */
+    --color-light-bg: #ECF0F1; /* Fondo de tarjetas / Gris claro */
+}
+
+/* Base Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+/* Tipografía y Títulos */
+h1 {
+    font-family: 'Bungee Outline', cursive;
+    font-size: 4.5rem;
+    color: var(--color-primary-dark);
+    /* Sombra más sutil con un tono naranja pálido */
+    text-shadow: 4px 4px 0 #F39C12;
+    margin-bottom: 0.5rem;
+}
+
+h2.section-title {
+    font-size: 2.2rem;
+    color: var(--color-primary-dark);
+    border-bottom: 3px solid var(--color-accent-orange);
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    color: var(--color-accent-red); /* Título de tarjeta en Rojo Terracota */
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: var(--color-accent-green); /* Subtítulos de pasos en Verde Esmeralda */
+    margin-bottom: 5px;
+}
+
+/* Layout General */
+.section {
+    padding: 60px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HERO SECTION (Encabezado) */
+.hero-section {
+    /* Degradado sobrio con tonos de Azul */
+    background: linear-gradient(135deg, var(--color-primary-dark), var(--color-primary-light));
+    color: white;
+    padding: 80px 5% 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container {
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.95); /* Blanco casi puro para el fondo del logo */
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.slogan {
+    font-size: 1.5rem;
+    color: #F1C40F; /* Amarillo dorado sutil para el eslogan */
+    letter-spacing: 5px;
+    margin-top: -10px;
+}
+
+.hero-text-box {
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.15); /* Fondo más claro para la cita */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.creator {
+    font-weight: bold;
+    color: #F1C40F; /* Amarillo dorado sutil para el creador */
+}
+
+/* SECCIÓN DE REGLAS */
+.rules-section {
+    background-color: white;
+}
+
+.rules-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.card {
+    background-color: var(--color-light-bg); /* Fondo de tarjeta gris claro */
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 5px solid var(--color-accent-orange); /* Borde con Naranja Quemado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.note-info {
+    font-size: 0.9em;
+    color: var(--color-primary-light); /* Azul medio para la nota */
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.card ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card li {
+    background-color: #EAECEE; /* Fondo de lista ligeramente más oscuro */
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 4px;
+    border-left: 3px solid var(--color-accent-green); /* Borde de lista en Verde Esmeralda */
+}
+
+
+/* SECCIÓN DE INSTRUCCIONES */
+.instructions-section {
+    background-color: var(--color-background);
+}
+
+.step-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.step {
+    flex: 1;
+    /* Borde sólido y color de fondo limpio */
+    border: 2px solid var(--color-primary-light);
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.step:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* SECCIÓN DE SIGNIFICADO */
+.meaning-section {
+    background-color: #fff;
+}
+
+.meaning-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.meaning-card {
+    /* Fondo de tarjeta en un Azul más claro/medio */
+    background-color: var(--color-primary-light);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.meaning-card h3 {
+    color: var(--color-accent-orange); /* Título de tarjeta de significado en Naranja */
+}
+
+.benefit {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+/* PIE DE PÁGINA */
+.footer-section {
+    /* Color de fondo en Azul Marino Oscuro */
+    background-color: var(--color-primary-dark);
+    color: white;
+    text-align: center;
+    padding: 30px 5%;
+}
+
+.cta-button {
+    display: inline-block;
+    /* Botón CTA en Naranja Quemado */
+    background-color: var(--color-accent-orange);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 15px 0;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    /* Hover en Rojo Terracota */
+    background-color: var(--color-accent-red);
+    transform: scale(1.05);
+}
+
+/* Media Queries para Responsividad Móvil */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .rules-grid, .step-list, .meaning-grid {
+        grid-template-columns: 1fr;
+        flex-direction: column;
+    }
+
+    .hero-section {
+        padding-top: 50px;
+    }
+}
+/* SECCIÓN DE PRECIOS FIJOS */
+.fixed-price-section {
+    background-color: var(--color-background); /* Fondo de la página */
+    padding: 80px 5%;
+    text-align: center;
+}
+
+.fixed-price-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    align-items: stretch;
+}
+
+/* Caja principal que muestra el precio */
+.price-display-box {
+    flex: 1;
+    background-color: var(--color-primary-dark); /* Azul oscuro (Fondo premium) */
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid var(--color-accent-red); /* Borde de acento Rojo */
+}
+
+.price-label {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    color: #EAECEE;
+    font-weight: 300;
+}
+
+.final-price-tag {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--color-accent-orange); /* Precio en Naranja para alto contraste */
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.price-detail {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+/* Caja secundaria para la calculadora */
+.price-cta-box {
+    flex: 1;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.price-cta-box h3 {
+    color: var(--color-primary-dark);
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.secondary-button {
+    background-color: var(--color-primary-light); /* Botón en Azul Medio */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.secondary-button:hover {
+    background-color: var(--color-accent-green); /* Hover en Verde Esmeralda */
+}
+
+/* Responsividad para móviles */
+@media (max-width: 768px) {
+    .fixed-price-container {
+        flex-direction: column;
+    }
+
+    .final-price-tag {
+        font-size: 3rem;
+    }
+}

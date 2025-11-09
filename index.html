@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TANGRAM: SHAPE YOUR MIND</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="logo-container">
+            <img src="Imagen_de_WhatsApp_2025-11-04_a_las_15.10.28_4fe79ed7-removebg-preview (1).png" alt="" class="logo" width="50px">
+            <h1 class="main-title">TANGRAM</h1>
+            <p class="slogan">SHAPE YOUR MIND</p>
+        </div>
+        <div class="hero-text-box">
+            <p class="quote">“El tangram nos enseña que incluso cuando la vida se quiebra en siete fragmentos... la paciencia y una nueva perspectiva son suficientes para reordenar el caos y revelar... la majestuosa silueta de un cisne, un barco o cualquier sueño que nos atrevamos a visualizar.”</p>
+            <p class="creator">Creado y diseñado por: Isabella García</p>
+        </div>
+    </header>
+
+    <section class="section rules-section">
+        <h2 class="section-title">🎯 Objetivo y Reglas del Juego</h2>
+        <div class="rules-grid">
+            <div class="card">
+                <h3>NÚMERO TOTAL DE PIEZAS: 13</h3>
+                <p>Encontrar la única forma de rellenar la Bandeja de Juego utilizando las 13 piezas.</p>
+                <p class="note-info"> Perímetro del Tangram: 20cm X 20cm </p>
+                <p class="note-info"> Cuadrados Grandes: 7cm x 7cm</p>
+                <p class="note-info"> Cuadrado Central: 1cm x 1cm</p>
+                <p class="note-info"> Triangulos Grandes: 10,5cm x 7,5cm x 7cm/p>
+                <p class="note-info"> Triangulos Pequeños: 9,5cm x 7cm x 6,5cm</p>
+            </div>
+
+            <div class="card">
+                <h3>Reglas de Ensamblaje</h3>
+                <ul>
+                    <li>Uso Obligatorio: Se deben utilizar las 13 piezas para completar el rompecabezas.</li>
+                    <li>Sin Superposiciones: Ninguna pieza puede superponerse a otra.</li>
+                    <li>Límites de la Bandeja: Todas las piezas deben encajar perfectamente dentro del perímetro cuadrado.</li>
+                    <li>Movimientos Permitidos: Solo se permite la traslación, la rotación (girar la pieza) y voltear la pieza.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section instructions-section">
+        <h2 class="section-title">🧠 El Enigma del Cuadrado Extra</h2>
+        <div class="step-list">
+            <div class="step">
+                <h4> Configuración Inicial (El Engaño)</h4>
+                <p>Coloque 12 figuras geometricas en la Bandeja de Juego de manera que la rellenen por completo. Verifique: Notará que es imposible que el Cuadrado Pequeño quepa.</p>
+            </div>
+            <div class="step">
+                <h4> La Búsqueda de la Solución (La Clave Geométrica)</h4>
+                <p>El secreto está en la sutil reorganización y rotación de los triángulos. Analice cómo la orientación de las piezas afecta el espacio negativo (el agujero) que crean.</p>
+            </div>
+            <div class="step">
+                <h4> Ensamblaje Final (La Victoria)</h4>
+                <p>Vuelva a colocar las 12 figuras geometricas, pero con una nueva orientación (pista: rote cada triángulo 90 grados). Si lo hace bien, se creará un espacio vacío central exacto para el Cuadrado Pequeño. Coloque el Cuadrado Pequeño en este espacio.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section meaning-section">
+        <h2 class="section-title">✨ Significado y Valor de Marca</h2>
+        <div class="meaning-grid">
+            <div class="meaning-card">
+                <h3>El Slogan: "Shape Your Mind"</h3>
+                <p>Sugiere que al manipular las formas físicas del juego, estás "dando forma" a tu mente. Implica que el juego te ayuda a "moldear" tu pensamiento, desarrollando lógica y creatividad.</p>
+                <p class="benefit">Comunica el beneficio central: una herramienta para el desarrollo mental y el aprendizaje.</p>
+            </div>
+            <div class="meaning-card">
+                <h3>Paleta de Colores Vivos</h3>
+                <p>El uso de colores brillantes (rojo, azul, verde, naranja) comunica Creatividad y Posibilidades Infinitas. Estimula la alegría y curiosidad en los niños.</p>
+            </div>
+            <div class="meaning-card">
+                <h3>Identidad Clara y Promesa</h3>
+                <p>Inmediatamente reconocible como un rompecabezas geométrico. Posiciona el juego como una herramienta para el desarrollo cognitivo.</p>
+                <p class="benefit">Ofrece la promesa de una mente más aguda, creativa y bien "formada".</p>
+            </div>
+        </div>
+    </section>
+        <section class="section price-section"></section>
+                <div class="calculator-cta">
+    <section class="section fixed-price-section">
+    <h2 class="section-title">Adquiere Tu Desafío💲</h2>
+
+    <div class="fixed-price-container">
+        <div class="price-display-box">
+            <p class="price-label">Precio Único por Kit</p>
+            <p class="final-price-tag">
+                15.85$
+            </p>
+            <p class="price-detail">
+                ¡Incluye las 13 piezas, la bandeja de juego de 20x20 (cm) y guía de retos!
+            </p>
+        </div>
+
+        <div class="price-cta-box">
+            <h3>¿Compras al por Mayor?</h3>
+            <p>
+                Si deseas adquirir múltiples kits o calcular el costo basado en materiales específicos, utiliza nuestra herramienta:
+            </p>
+            <a href="https://imgarciaf-ship-it.github.io/calculadoradetangram" target="_blank" class="cta-button secondary-button">
+                ¡Calculadora para Tangrams!
+            </a>
+        </div>
+    </div>
+</section>
+
+    <section class="section price-section">
+    <h2 class="section-title"></h2>
+        <div class="calculator-cta">
+    <section class="section fixed-price-section">
+          <p>© 2025 Isabella García- TANGRAM - Shape Your Mind. Todos los derechos reservados.</p>
+            </p>
+        </div>
+    </div>
+</section>
+</body>
+</html>
